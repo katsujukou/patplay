@@ -1,0 +1,17 @@
+package:
+  name: patplay
+  dependencies:
+    - console
+    - effect
+    - fmt
+    - lists
+    - ordered-collections
+    - prelude
+    - transformers
+  test:
+    main: Test.Main
+    dependencies: []
+workspace:
+  packageSet:
+    registry: 61.4.0
+  extraPackages: {}
